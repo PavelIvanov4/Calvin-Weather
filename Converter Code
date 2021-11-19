@@ -1,0 +1,9 @@
+const kelvin = 295;
+// It describes today's forecast
+const celsius = kelvin - 273;
+// now we've got it converted
+let fahrenheit = celsius * (9 / 5) + 32
+// getting ready with Fahrenheit degrees
+fahrenheit = Math.floor(fahrenheit)
+// rounded it down
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
